@@ -1,2 +1,223 @@
-# zili-yi.github.io
-Zili Yi's resume page
+
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the  Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
+<head>
+  <title>Zili Yi, ByteDance Inc.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ <!-- <script src="js/bootstrap.min.js"></script>-->
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700|Libre+Franklin:800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse" style="margin-left:-3vh" >
+      <div class="container">
+		<ul class="nav navbar-nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="#publications">Publications</a></li> 
+			  <!--<li><a href="Curriculum_Vitae.pdf" target="blank">CV</a></li> -->
+		</ul>
+	  </div>
+	</nav>
+	
+
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Entries Column -->
+            <div class="col-md-3" >
+                
+                <!-- Contact Info on the Sidebar and image -->
+                
+                <div style="font-family: 'Oswald', sans-serif; font-size: 40px;"><b>Yiming Qian</b></div><br>
+				<img class="img-responsive" src="yiming.jpg" height="600" width="400" alt=""><br>
+                <!--<p id="contacts"><b>Email:<a href="mailto:andrea.cerulli.13@ucl.ac.uk" class="black"> andrea.cerulli.13 at ucl.ac.uk</a></b><br>-->
+                <!--<p><b>Office:</b> MPEB 6.22<br>-->
+				Department of Computer Science<br>
+                University of Manitoba<br>
+                Winnipeg, MB<br>
+                Canada R3T 2N2<br>
+                <a href="https://scholar.google.com/citations?user=2xMfNpMAAAAJ&hl=en" target="blank"><img src="image/scholar_logo.png" width="25px"></a>&nbsp;
+			    <a href="https://ca.linkedin.com/in/yiming-qian-b09a20a7" target="blank"><img src="image/linkedin_logo.png" width="25px"></a>&nbsp;
+                <a href="https://www.youtube.com/channel/UCFaEqO89z-AMuzeZqdi33Zg" target="blank"><img src="image/youtube_logo.png" width="25px"></a>&nbsp;
+                <a href="https://clustrmaps.com/site/1b7a5" title="Visit tracker" target="_blank"><img src="//www.clustrmaps.com/map_v2.png?d=MP7-nHPPXeHVajy0BzDIq5M9yc1R2bfMPVqUtZuzeoA&cl=ffffff" width="35"></a><br>
+                </p>
+                
+            </div> 
+
+            <!-- main info -->
+            <div class="col-md-8" >
+                <div style="margin-top:10vh; text-align:justify;">  
+				<p>I am an Applied Scientist at Amazon. Previsouly, I was an Assistant Professor in the Department of Computer Science at the <a href="https://sci.umanitoba.ca/cs/" target="blank">University of Manitoba</a>. Before that, I was a postdoc at <a href="https://www.sfu.ca/" target="blank">Simon Fraser University</a> working with Prof. <a href="https://www2.cs.sfu.ca/~furukawa/" target="blank">Yasutaka Furukawa</a>. I obtained my PhD degree from the <a href="https://www.ualberta.ca/computing-science/index.html" target="blank">University of Alberta</a>. My research interests lie at the intersection of computer vision, computer graphis and machine learning. Recently, I focus on reconstruction and generation of 3D environment by combining advances in physics, geometry, imaging, deep learning, etc.
+				</p>
+				<!--<p>Here is my <a href="Curriculum_Vitae.pdf" target="blank">CV</a> and email: yiming.qian [!at!] umanitoba [!dot!] ca<br></p>-->
+				<!--<p>I am recruiting graduate students. Please drop me an email with your resume/CV.<br></p>-->
+				<p>Email: qym.ustc [!at!] gmail [!dot!] com<br></p>
+				<p><br></p>
+				
+				</div>
+			<!--<div  style="margin-top:5vh; text-align:justify;"> 
+			<h2>Research Interests</h2> 
+			<p>I am interested in the development and deployment of cryptographic protocols. I am currently working on building efficient zero-knowledge proofs and arguments.
+			My research interests includes lattice-based cryptography and multi-party computation protocols.</p> 
+			
+                
+            </div>-->
+            
+            
+            <!-- Links on the Sidebar
+            <div class="col-md-4" style="margin-top:2%">
+              <dd><a href="#">Google Scholar</a></dd> 
+              <dd><a href="#">Twitter</a></dd>
+              <dd><a href="#">LinkedIn</a></dd>
+            </div> -->
+            
+            
+            <!-- Publications -->
+            <div style="margin-top:5vh;" >    
+                <h2 id="publications">Selected Papers</h2>
+                <strong>See the full list indexed by <a href="https://scholar.google.com/citations?hl=en&user=2xMfNpMAAAAJ&view_op=list_works&sortby=pubdate" target="blank">google scholar</a></strong><br/><br/>
+                <ul>
+               <!-- <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a> Names of the authors</li> -->
+				<li class="paper"><b>Single User WiFi Structure from Motion in the Wild</b><br> 
+				<b>Yiming Qian</b>, Hang Yan, Sachini Herath, Pyojin Kim, Yasutaka Furukawa<br>
+				<i>IEEE International Conference on Robotics and Automation (<b>ICRA</b>), 2022</i><br>
+				<a href="https://drive.google.com/file/d/1rOKqGDQ1NtVay3-DUvhJPDhjIXD5ydSH/view?usp=sharing" target="_blank"><b>[Full Paper]</b></a>
+				</li><br>
+
+				<li class="paper"><b>HEAT: Holistic Edge Attention Transformer for Structured Reconstruction</b><br> 
+				Jiacheng Chen, <b>Yiming Qian</b>, Yasutaka Furukawa<br>
+				<i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2022</i><br>
+				<a href="https://arxiv.org/abs/2111.15143" target="_blank"><b>[ArXiv]</b></a>, <a href="https://heat-structured-reconstruction.github.io/" target="_blank"><b>[Project Page]</b></a><!--, <a href="https://github.com/yi-ming-qian/roofgan" target="_blank"><b>[Code]</b></a>-->
+				</li><br>
+
+                <li class="paper"><b>Roof-GAN: Learning to Generate Roof Geometry and Relations for Residential Houses</b><br> 
+				<b>Yiming Qian</b>, Hao Zhang, Yasutaka Furukawa<br>
+				<i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2021</i><br>
+				<a href="https://arxiv.org/abs/2012.09340" target="_blank"><b>[ArXiv]</b></a>, <a href="https://drive.google.com/file/d/130p1PjD2OuV6bhYdp8c_QEU6LPbUux8Q/view?usp=sharing" target="_blank"><b>[Supplementary]</b></a>, <a href="https://github.com/yi-ming-qian/roofgan" target="_blank"><b>[Code]</b></a>
+				</li><br>
+
+                <li class="paper"><b>Fusion-DHL: WiFi, IMU, and Floorplan Fusion for Dense History of Locations in Indoor Environments</b><br> 
+				Sachini Herath, Saghar Irandoust, Bowen Chen, <b>Yiming Qian</b>, Pyojin Kim, Yasutaka Furukawa<br>
+				<i>IEEE International Conference on Robotics and Automation (<b>ICRA</b>), 2021</i><br>
+				<a href="https://arxiv.org/abs/2105.08837" target="_blank"><b>[ArXiv]</b></a>, <a href="https://youtu.be/CCDms7KWgI8" target="_blank"><b>[Video]</b></a>, <a href="https://github.com/Sachini/Fusion-DHL" target="_blank"><b>[Code]</b></a>
+				</li><br>
+
+                <li class="paper"><b>Learning Pairwise Inter-Plane Relations for Piecewise Planar Reconstruction</b><br> 
+				<b>Yiming Qian</b>, Yasutaka Furukawa<br>
+				<i>Proceedings of the European Conference on Computer Vision (<b>ECCV</b>), 2020</i><br>
+				<a href="https://drive.google.com/file/d/1OlUhc-P-NM9bDCTqK8CPCGff-xE1o3Vc/view?usp=sharing" target="_blank"><b>[Full Paper]</b></a>, <a href="https://github.com/yi-ming-qian/interplane" target="_blank"><b>[Code]</b></a>
+				</li><br>
+
+				<li class="paper"><b>3D Human Shape Reconstruction from a Polarization Image</b><br> 
+				Shihao Zou, Xinxin Zuo, <b>Yiming Qian</b>, Sen Wang, Chi Xu, Minglun Gong, Li Cheng<br>
+				<i>Proceedings of the European Conference on Computer Vision (<b>ECCV</b>), 2020</i><br>
+				<a href="https://jimmyzou.github.io/publication/2020-polarization-clothed-human-shape" target="_blank"><b>[Project Page]</b></a>
+				</li><br>
+
+                <li class="paper"><b>Simultaneous 3D Reconstruction for Water Surface and Underwater Scene</b><br> 
+				<b>Yiming Qian</b>, Yinqiang Zheng, Minglun Gong, Yee-Hong Yang<br>
+				<i>Proceedings of the European Conference on Computer Vision (<b>ECCV</b>), 2018</i><br>
+				<a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Yiming_Qian_Simultaneous_3D_Reconstruction_ECCV_2018_paper.pdf" target="_blank"><b>[Full Paper]</b></a>, <a href="https://youtu.be/zw5In7TZRL4" target="_blank"><b>[Video]</b></a>
+				</li><br>
+
+				<li class="paper"><b>Full 3D Reconstruction of Transparent Objects</b><br> 
+				Bojian Wu, Yang Zhou, <b>Yiming Qian</b>, Minglun Gong, Hui Huang<br>
+				<i>ACM Transactions on Graphics (Proceedings of <b>SIGGRAPH</b>), 2018</i><br>
+				<a href="https://arxiv.org/pdf/1805.03482" target="_blank"><b>[Full Paper]</b></a>, <a href="https://vcc.tech/research/2018/FRT" target="_blank"><b>[Project Page]</b></a>
+				</li><br>
+
+				<li class="paper"><b>Stereo-based 3D Reconstruction of Dynamic Fluid Surfaces by Global Optimization</b><br> 
+				<b>Yiming Qian</b>, Minglun Gong, Yee-Hong Yang<br>
+				<i>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2017</i><br>
+				<a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Qian_Stereo-Based_3D_Reconstruction_CVPR_2017_paper.pdf" target="_blank"><b>[Full Paper]</b></a>, <a href="https://www.youtube.com/playlist?list=PLscnTa56vqOwiRzp-fH35dJEy-FZ9fbYg" target="_blank"><b>[Video]</b></a>
+				</li><br>
+
+				<li class="paper"><b>Artificial Multi-Bee-Colony Algorithm for k-Nearest-Neighbor Fields Search</b><br> 
+				Yunhai Wang, <b>Yiming Qian</b>, Yang Li, Minglun Gong, Wolfgang Banzhaf<br>
+				<i>Proceedings of the ACM Genetic and Evolutionary Computation Conference (<b>GECCO</b>), 2016</i><br>
+				<a href="https://dl.acm.org/doi/pdf/10.1145/2908812.2908835" target="_blank"><b>[Full Paper]</b></a>
+				</li><br>
+
+				<li class="paper"><b>3D Reconstruction of Transparent Objects with Position-Normal Consistency</b><br> 
+				<b>Yiming Qian</b>, Minglun Gong, Yee-Hong Yang<br>
+				<i>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016</i><br>
+				<a href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Qian_3D_Reconstruction_of_CVPR_2016_paper.pdf" target="_blank"><b>[Full Paper]</b></a>
+				</li><br>
+
+				<li class="paper"><b>Frequency-based Environment Matting by Compressive Sensing</b><br> 
+				<b>Yiming Qian</b>, Minglun Gong, Yee-Hong Yang<br>
+				<i>Proceedings of the IEEE International Conference on Computer Vision (<b>ICCV</b>), 2015</i><br>
+				<a href="http://openaccess.thecvf.com/content_iccv_2015/papers/Qian_Frequency-Based_Environment_Matting_ICCV_2015_paper.pdf" target="_blank"><b>[Full Paper]</b></a>
+				</li><br>
+
+				<li class="paper"><b>Integrated Foreground Segmentation and Boundary Matting for Live Videos</b><br> 
+				Minglun Gong, <b>Yiming Qian</b>, Li Cheng.<br>
+				<i>IEEE Transactions on Image Processing (<b>TIP</b>), 2015</i><br>
+				<a href="https://ieeexplore.ieee.org/document/7035053" target="_blank"><b>[Full Paper]</b></a> <a href="https://www.youtube.com/playlist?list=PLscnTa56vqOyOAXcSCohOYXaJfFMkmKAr" target="_blank"><b>[Video]</b></a>
+				</li><br>
+
+				<li class="paper"><b>Distilled Collections from Textual Image Queries</b><br> 
+				Hadar Averbuch-Elor, Yunhai Wang, <b>Yiming Qian</b>, Minglun Gong, Johannes Kopf, Hao Zhang, Daniel Cohen-Or<br>
+				<i>Computer Graphics Forum (Proceedings of <b>Eurographics</b>), 2015</i><br>
+				<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.676.4162&rep=rep1&type=pdf" target="_blank"><b>[Full Paper]</b></a>
+				</li><br>
+
+				
+				</li>
+
+				
+                </ul>
+              <!-- Publications
+                <strong>Technical Reports</strong><br/>
+                <ul>
+                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
+                </ul> -->
+            </div>
+			
+			<!--<div style="margin-top:8vh; height: 100vh"  >    
+                <h2 id="teacing">Teaching</h2> 				
+				
+			<ul>
+			
+			<li> TA for <a href="http://www.cs.ucl.ac.uk/students/syllabus/mscisec/ga03_introduction_to_cryptography/">Introduction to Cryptography</a> at the MSc in Information Security, UCL, 2016/2017.</li>
+				<br>
+			
+			<li> TA for <a href="http://www.cs.ucl.ac.uk/students/syllabus/mscisec/ga03_introduction_to_cryptography/">Introduction to Cryptography</a> at the MSc in Information Security, UCL, 2015/2016.</li> 
+				<br>
+			
+			<li>TA for <a href="http://www.cs.ucl.ac.uk/students/syllabus/mscisec/ga03_introduction_to_cryptography/">Introduction to Cryptography</a> at the MSc in Information Security, UCL, 2014/2015.</li>
+				<br>
+			<li>
+			TA for <a href="http://www.cs.ucl.ac.uk/students/syllabus/mscisec/ga03_introduction_to_cryptography/">Introduction to Cryptography</a> at the MSc in Information Security, UCL, 2013/2014.</li>
+				</ul> <br>
+			
+            </div>-->
+        
+
+ <!-- Other people may like it too! -->
+    
+    
+    <p style="font-size:0.8em; float:right;"> <a style="color:#b5bec9" href="https://github.com/mavroudisv/plain-academic">Kudos to Vasilios for the template: Plain Academic</a> </p>
+    </div>
+    <!-- /.container -->
+    
+   
+</body>
+
+</html>
